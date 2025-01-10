@@ -1,0 +1,14 @@
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.AssemblyInfoInputs.cache
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.AssemblyInfo.cs
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/DesginPattern/bin/Debug/net9.0/DesginPattern
+/Users/user/Desktop/DesginPattern/bin/Debug/net9.0/DesginPattern.deps.json
+/Users/user/Desktop/DesginPattern/bin/Debug/net9.0/DesginPattern.runtimeconfig.json
+/Users/user/Desktop/DesginPattern/bin/Debug/net9.0/DesginPattern.dll
+/Users/user/Desktop/DesginPattern/bin/Debug/net9.0/DesginPattern.pdb
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.dll
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/refint/DesginPattern.dll
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.pdb
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.genruntimeconfig.cache
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/ref/DesginPattern.dll
