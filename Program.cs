@@ -1,33 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DesginPattern.src.Behavioral.Memento;
+using DesginPattern.src.Behavioral.State.GoodSolution;
 
-namespace DesginPattern
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var editor = new Editor();
-            var history = new History(editor);
+var doc = new Document(UserRoles.Admin);
+System.Console.WriteLine(doc.State);
 
-    
-            editor.Title = "Haha This";
-            history.Backup();
+doc.Publish();
 
-            editor.Content = "Content I Am";
-            history.Backup();
+System.Console.WriteLine(doc.State);
+doc.Publish();
 
-              editor.Title = "Edit";
-            history.Backup();
+System.Console.WriteLine(doc.State);
 
-            System.Console.WriteLine("Title: " + editor.Title );
-            System.Console.WriteLine("Content: " +editor.Content );
+doc.Publish();
 
-            history.Undo();
+doc.State = new DraftState(doc);
+System.Console.WriteLine(doc.State);
 
-            System.Console.WriteLine("Title: " + editor.Title );
-            System.Console.WriteLine("Content: " + editor.Content );
 
-        }
-    }
-}
+

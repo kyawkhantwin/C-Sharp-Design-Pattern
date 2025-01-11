@@ -12,3 +12,4 @@
 /Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.pdb
 /Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.genruntimeconfig.cache
 /Users/user/Desktop/DesginPattern/obj/Debug/net9.0/ref/DesginPattern.dll
+/Users/user/Desktop/DesginPattern/obj/Debug/net9.0/DesginPattern.sourcelink.json
