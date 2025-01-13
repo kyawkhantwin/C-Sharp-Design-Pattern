@@ -1,20 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DesginPattern.src.Behavioral.State.GoodSolution;
+using DesginPattern.src.Behavioral.Iterator.GoodSolution;
 
-var doc = new Document(UserRoles.Admin);
-System.Console.WriteLine(doc.State);
+ShoppingList list = new ShoppingList();
+list.Push("Milk");
+list.Push("Bread");
+list.Push("Steak");
 
-doc.Publish();
+var iterator = list.CreateIterator();
 
-System.Console.WriteLine(doc.State);
-doc.Publish();
-
-System.Console.WriteLine(doc.State);
-
-doc.Publish();
-
-doc.State = new DraftState(doc);
-System.Console.WriteLine(doc.State);
-
-
+while(iterator.HasNext()){
+    Console.WriteLine(iterator.Current());
+    iterator.Next();
+}
 

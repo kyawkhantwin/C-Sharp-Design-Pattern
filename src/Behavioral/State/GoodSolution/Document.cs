@@ -16,7 +16,5 @@ namespace DesginPattern.src.Behavioral.State.GoodSolution
         public void Publish(){
             State.Publish();
         }
-
-        
     }
 }

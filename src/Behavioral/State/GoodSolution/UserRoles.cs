@@ -2,7 +2,7 @@ namespace DesginPattern.src.Behavioral.State.GoodSolution
 {
     public enum UserRoles
     {
-         Reader,
+         Viewer,
          Editor,
          Admin
     }
