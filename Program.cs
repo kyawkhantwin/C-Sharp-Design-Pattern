@@ -1,15 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DesginPattern.src.Behavioral.Iterator.GoodSolution;
+using DesginPattern.src.Behavioral.command.Undoable
+;
 
-ShoppingList list = new ShoppingList();
-list.Push("Milk");
-list.Push("Bread");
-list.Push("Steak");
+var history = new History();
+var document = new HtmlDocument();
+document.Content = "Hello World";
 
-var iterator = list.CreateIterator();
+Console.WriteLine(document.Content);
 
-while(iterator.HasNext()){
-    Console.WriteLine(iterator.Current());
-    iterator.Next();
-}
+
+
+var italicCommand = new ItalicCommand(document, history);
+italicCommand.Execute();
+Console.WriteLine(document.Content);
+italicCommand.Unexecute();
+
+Console.WriteLine(document.Content);
+
 

@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/user/.nuget/packages/": {}
+    "C:\\Users\\kyawk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/DesginPattern/DesginPattern.csproj",
+      "projectUniqueName": "C:\\Users\\kyawk\\Desktop\\code\\DesginPattern\\DesginPattern.csproj",
       "projectName": "DesginPattern",
-      "projectPath": "/Users/user/Desktop/DesginPattern/DesginPattern.csproj",
-      "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/DesginPattern/obj/",
+      "projectPath": "C:\\Users\\kyawk\\Desktop\\code\\DesginPattern\\DesginPattern.csproj",
+      "packagesPath": "C:\\Users\\kyawk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kyawk\\Desktop\\code\\DesginPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/user/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\kyawk\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
