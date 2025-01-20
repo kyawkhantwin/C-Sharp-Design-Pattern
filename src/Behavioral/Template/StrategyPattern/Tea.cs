@@ -3,24 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DesginPattern.src.Behavioral.Template
+namespace DesginPattern.src.Behavioral.Template.StrategyPattern
 {
-    public class Tea
+    public class Tea : Beverage
     {
-
-        public void MakeBeverage(){
-            BoilWater();
+         public void Perpare(){
             Brew();
-            PourWater();
             AddCondiments();
         }
-        private void BoilWater(){
-            Console.WriteLine("Boiling water");
-        }
-        private void PourWater(){
-            Console.WriteLine("Pouring water");
-        }
-
+   
         private void Brew(){
             Console.WriteLine("Steeping the tea");
         }
@@ -37,5 +28,5 @@ namespace DesginPattern.src.Behavioral.Template
             return answer.ToLower() == "y";
         }
 
-
-}}
+    }
+}

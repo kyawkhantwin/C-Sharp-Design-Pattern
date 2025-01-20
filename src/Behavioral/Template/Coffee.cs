@@ -5,37 +5,43 @@ using System.Threading.Tasks;
 
 namespace DesginPattern.src.Behavioral.Template
 {
-    public class Tea
+    public class Coffee
     {
-
-        public void MakeBeverage(){
+        public void MakeBeverage()
+        {
             BoilWater();
             Brew();
             PourWater();
             AddCondiments();
         }
-        private void BoilWater(){
+        private void BoilWater()
+        {
             Console.WriteLine("Boiling water");
         }
-        private void PourWater(){
+        private void PourWater()
+        {
             Console.WriteLine("Pouring water");
         }
 
-        private void Brew(){
+        private void Brew()
+        {
             Console.WriteLine("Steeping the tea");
         }
-        private void AddCondiments(){
-            if(CustomerWantsCondiments()){
+        private void AddCondiments()
+        {
+            if (CustomerWantsCondiments())
+            {
                 Console.WriteLine("Adding lemon");
             }
         }
 
-        private bool CustomerWantsCondiments(){
+        private bool CustomerWantsCondiments()
+        {
             Console.WriteLine("Do you want lemon in your tea?(y/n)");
             var answer = Console.ReadLine();
 
             return answer.ToLower() == "y";
         }
 
-
-}}
+    }
+}
